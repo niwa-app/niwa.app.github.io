@@ -1,0 +1,43 @@
+@import url(sanitize.css);
+
+body {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+header h1 {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.renda p {
+    clear: left;
+    margin: 0;
+    padding: 0;
+}
+
+
+img {
+    width: 270px;
+    height: 150px;
+    float: left;
+    margin-right: 5px;
+}
+
+footer {
+    text-align: center;
+    font-size: 90%;
+    background-color: aliceblue;
+}
